@@ -78,3 +78,20 @@ console.log(num1 !== num2);
 
 
 //LINK ---> logicos
+console.log("----------------Logicos---------------")
+//AND --> &&
+let estaLogueado = true
+let esAdmin = false
+
+let tienePermiso = estaLogueado && esAdmin && 20 > 2 && 12 < 15
+
+console.log(tienePermiso)
+
+//OR ---> || 
+
+let tienePermiso2 = estaLogueado || esAdmin || 20 > 2 || 12 < 15
+
+console.log(tienePermiso2)
+
+//NOT ----> !
+
